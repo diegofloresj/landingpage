@@ -50,3 +50,9 @@ body {
   color:white;
   font-size: 2rem;
 }
+
+@media screen and (max-width:400px) {
+  .icons-box .btn a {
+    font-size: 18px;
+  }
+}
