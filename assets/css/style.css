@@ -1,0 +1,39 @@
+body {
+  background: rgb(20, 20, 20);
+}
+
+/* General Styles */
+.txt-title {
+  font-size: 2.9rem;
+  color: white;
+}
+
+.txt-desc {
+  font-size: 1.2rem;
+  color: rgb(143, 143, 143);
+}
+
+
+/* Main Content */
+
+.badges-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+/* Plans Content */
+
+.card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* About Us */
+
+.icons-box .btn a {
+  color:white;
+  font-size: 2rem;
+}
