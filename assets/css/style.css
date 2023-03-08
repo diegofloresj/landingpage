@@ -51,7 +51,12 @@ body {
   font-size: 2rem;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:430px) {
+
+  .txt-title {
+    font-size: 25px;
+  }
+
   .icons-box .btn a {
     font-size: 18px;
   }
