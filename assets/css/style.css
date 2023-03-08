@@ -53,6 +53,10 @@ body {
 
 @media screen and (max-width:430px) {
 
+  *{
+    text-align: center;
+  }
+
   .txt-title {
     font-size: 25px;
   }
@@ -60,4 +64,10 @@ body {
   .icons-box .btn a {
     font-size: 18px;
   }
+  
+  .badges-box {
+    display: flex;
+    justify-content: center;
+  }
+  
 }
