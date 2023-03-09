@@ -2,6 +2,10 @@ body {
   background: rgb(20, 20, 20);
 }
 
+* {
+  text-align: justify;
+}
+
 *::-webkit-scrollbar {
   width: 5px;
 }
