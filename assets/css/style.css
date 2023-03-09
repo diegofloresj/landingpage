@@ -2,10 +2,6 @@ body {
   background: rgb(20, 20, 20);
 }
 
-* {
-  text-align: justify;
-}
-
 *::-webkit-scrollbar {
   width: 5px;
 }
@@ -28,6 +24,7 @@ body {
 .txt-desc {
   font-size: 1.2rem;
   color: rgb(143, 143, 143);
+  text-align: justify;
 }
 
 
@@ -46,6 +43,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  text-align: center;
 }
 
 /* About Us */
@@ -56,10 +54,6 @@ body {
 }
 
 @media screen and (max-width:430px) {
-
-  *{
-    text-align: center;
-  }
 
   .txt-title {
     font-size: 25px;
